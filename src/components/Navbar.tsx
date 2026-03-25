@@ -60,7 +60,7 @@ export default function Navbar() {
               <a
                 key={link.href}
                 href={link.href}
-                className="font-ui text-sm font-medium text-text-secondary transition-colors duration-300 hover:text-gold-400"
+                className="font-ui text-sm font-medium text-text-secondary transition-colors duration-300 hover:text-lens-400"
                 style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
               >
                 {link.label}
@@ -70,7 +70,7 @@ export default function Navbar() {
               href={whatsappLinks.general}
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-sm bg-gold-400 px-5 py-2.5 text-sm font-semibold text-bg-page transition-all duration-300 hover:bg-gold-500 hover:shadow-[var(--shadow-gold)]"
+              className="rounded-sm bg-lens-400 px-5 py-2.5 text-sm font-semibold text-bg-page transition-all duration-300 hover:bg-lens-500 hover:shadow-[var(--shadow-accent)]"
               style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
             >
               Cotiza tu proyecto
@@ -116,7 +116,7 @@ export default function Navbar() {
                     duration: 0.4,
                     ease: dramaticEase,
                   }}
-                  className="font-heading text-3xl tracking-[0.15em] text-text-secondary transition-colors duration-300 hover:text-gold-400"
+                  className="font-heading text-3xl tracking-[0.15em] text-text-secondary transition-colors duration-300 hover:text-lens-400"
                   style={{ fontFamily: 'var(--font-bebas), sans-serif', textTransform: 'uppercase' }}
                 >
                   {link.label}
@@ -133,7 +133,7 @@ export default function Navbar() {
                   duration: 0.4,
                   ease: dramaticEase,
                 }}
-                className="mt-2 inline-block w-fit rounded-sm bg-gold-400 px-6 py-3 text-sm font-semibold text-bg-page"
+                className="mt-2 inline-block w-fit rounded-sm bg-lens-400 px-6 py-3 text-sm font-semibold text-bg-page"
                 style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
               >
                 Cotiza tu proyecto

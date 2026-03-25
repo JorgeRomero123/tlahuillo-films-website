@@ -81,7 +81,7 @@ export default function Showreel() {
               </div>
               {featured.category && (
                 <span
-                  className="hidden shrink-0 text-xs tracking-[0.2em] text-gold-400 sm:block"
+                  className="hidden shrink-0 text-xs tracking-[0.2em] text-lens-400 sm:block"
                   style={{ fontFamily: 'var(--font-barlow), sans-serif', textTransform: 'uppercase' }}
                 >
                   {featured.category}
@@ -157,7 +157,7 @@ export default function Showreel() {
             href="https://www.youtube.com/channel/UCvLOMGuNkWPH5bk_n7fVlwg"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 text-sm text-text-tertiary transition-colors duration-300 hover:text-gold-400"
+            className="inline-flex items-center gap-2 text-sm text-text-tertiary transition-colors duration-300 hover:text-lens-400"
             style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
           >
             Ver más proyectos en YouTube

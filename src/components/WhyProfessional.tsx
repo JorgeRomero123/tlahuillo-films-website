@@ -11,7 +11,7 @@ export default function WhyProfessional() {
       {/* Warm ambient glow */}
       <div
         className="pointer-events-none absolute left-1/2 top-0 h-[400px] w-[600px] -translate-x-1/2 opacity-[0.04] blur-[120px]"
-        style={{ background: 'radial-gradient(ellipse, var(--gold-400) 0%, transparent 70%)' }}
+        style={{ background: 'radial-gradient(ellipse, var(--lens-400) 0%, transparent 70%)' }}
       />
 
       <div className="relative py-24 lg:py-36">
@@ -113,9 +113,9 @@ export default function WhyProfessional() {
             </div>
 
             {/* Productora */}
-            <div className="rounded-[2px] border border-gold-400/20 bg-bg-surface-2 p-6">
+            <div className="rounded-[2px] border border-lens-400/20 bg-bg-surface-2 p-6">
               <p
-                className="text-gold-400"
+                className="text-lens-400"
                 style={{
                   fontFamily: 'var(--font-bebas), sans-serif',
                   letterSpacing: '0.1em',
@@ -128,7 +128,7 @@ export default function WhyProfessional() {
               <ul className="mt-4 space-y-3">
                 {comparisonData.productora.map((item, i) => (
                   <li key={i} className="flex items-start gap-2.5">
-                    <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-gold-400" />
+                    <Check className="mt-0.5 h-3.5 w-3.5 shrink-0 text-lens-400" />
                     <span
                       className="text-text-primary"
                       style={{

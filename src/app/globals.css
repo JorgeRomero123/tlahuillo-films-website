@@ -12,26 +12,22 @@
   --font-heading: var(--font-bebas);
   --font-serif: var(--font-libre);
 
-  --color-bg-page: #0E0C0A;
-  --color-bg-surface-1: #1A1714;
-  --color-bg-surface-2: #231F1A;
-  --color-bg-surface-3: #2E2822;
-
-  --color-gold-400: #F0AD24;
-  --color-gold-500: #D4920C;
-  --color-gold-600: #B87A0A;
+  --color-bg-page: #0A0E10;
+  --color-bg-surface-1: #121A1E;
+  --color-bg-surface-2: #1A2328;
+  --color-bg-surface-3: #222E34;
 
   --color-lens-400: #5EC4D4;
   --color-lens-500: #3BA8B8;
   --color-lens-600: #2A8A99;
 
-  --color-text-primary: #F0EBE1;
-  --color-text-secondary: #AD9B85;
-  --color-text-tertiary: #8C7563;
+  --color-text-primary: #E8EEF0;
+  --color-text-secondary: #8A9FAA;
+  --color-text-tertiary: #5E7680;
 
-  --color-neutral-700: #4A3F35;
-  --color-neutral-800: #362F28;
-  --color-neutral-900: #2C2420;
+  --color-neutral-700: #354550;
+  --color-neutral-800: #283238;
+  --color-neutral-900: #1E2A30;
 
   --color-whatsapp: #25D366;
 
@@ -74,62 +70,57 @@
 }
 
 :root {
-  --bg-page: #0E0C0A;
-  --bg-surface-1: #1A1714;
-  --bg-surface-2: #231F1A;
-  --bg-surface-3: #2E2822;
-  --gold-400: #F0AD24;
-  --gold-500: #D4920C;
-  --gold-600: #B87A0A;
-  --text-primary: #F0EBE1;
-  --text-secondary: #AD9B85;
-  --text-tertiary: #8C7563;
-  --neutral-700: #4A3F35;
-  --neutral-800: #362F28;
-  --neutral-900: #2C2420;
-
-  --shadow-sm: 0 1px 2px rgba(44, 36, 32, 0.3);
-  --shadow-md: 0 4px 12px rgba(44, 36, 32, 0.4);
-  --shadow-lg: 0 8px 24px rgba(44, 36, 32, 0.5);
-  --shadow-gold: 0 4px 16px rgba(240, 173, 36, 0.3);
-  --shadow-lens: 0 4px 16px rgba(94, 196, 212, 0.2);
-
+  --bg-page: #0A0E10;
+  --bg-surface-1: #121A1E;
+  --bg-surface-2: #1A2328;
+  --bg-surface-3: #222E34;
   --lens-400: #5EC4D4;
   --lens-500: #3BA8B8;
   --lens-600: #2A8A99;
+  --text-primary: #E8EEF0;
+  --text-secondary: #8A9FAA;
+  --text-tertiary: #5E7680;
+  --neutral-700: #354550;
+  --neutral-800: #283238;
+  --neutral-900: #1E2A30;
 
-  --background: #0E0C0A;
-  --foreground: #F0EBE1;
-  --card: #1A1714;
-  --card-foreground: #F0EBE1;
-  --popover: #1A1714;
-  --popover-foreground: #F0EBE1;
-  --primary: #F0AD24;
-  --primary-foreground: #0E0C0A;
-  --secondary: #231F1A;
-  --secondary-foreground: #F0EBE1;
-  --muted: #2E2822;
-  --muted-foreground: #AD9B85;
-  --accent: #2E2822;
-  --accent-foreground: #F0EBE1;
+  --shadow-sm: 0 1px 2px rgba(30, 42, 48, 0.3);
+  --shadow-md: 0 4px 12px rgba(30, 42, 48, 0.4);
+  --shadow-lg: 0 8px 24px rgba(30, 42, 48, 0.5);
+  --shadow-accent: 0 4px 16px rgba(94, 196, 212, 0.25);
+
+  --background: #0A0E10;
+  --foreground: #E8EEF0;
+  --card: #121A1E;
+  --card-foreground: #E8EEF0;
+  --popover: #121A1E;
+  --popover-foreground: #E8EEF0;
+  --primary: #5EC4D4;
+  --primary-foreground: #0A0E10;
+  --secondary: #1A2328;
+  --secondary-foreground: #E8EEF0;
+  --muted: #222E34;
+  --muted-foreground: #8A9FAA;
+  --accent: #222E34;
+  --accent-foreground: #E8EEF0;
   --destructive: #B91C1C;
-  --border: #4A3F35;
-  --input: #362F28;
-  --ring: #F0AD24;
+  --border: #354550;
+  --input: #283238;
+  --ring: #5EC4D4;
   --radius: 0.25rem;
-  --sidebar: #1A1714;
-  --sidebar-foreground: #F0EBE1;
-  --sidebar-primary: #F0AD24;
-  --sidebar-primary-foreground: #0E0C0A;
-  --sidebar-accent: #2E2822;
-  --sidebar-accent-foreground: #F0EBE1;
-  --sidebar-border: #4A3F35;
-  --sidebar-ring: #F0AD24;
-  --chart-1: #F0AD24;
-  --chart-2: #D4920C;
-  --chart-3: #B87A0A;
-  --chart-4: #AD9B85;
-  --chart-5: #8C7563;
+  --sidebar: #121A1E;
+  --sidebar-foreground: #E8EEF0;
+  --sidebar-primary: #5EC4D4;
+  --sidebar-primary-foreground: #0A0E10;
+  --sidebar-accent: #222E34;
+  --sidebar-accent-foreground: #E8EEF0;
+  --sidebar-border: #354550;
+  --sidebar-ring: #5EC4D4;
+  --chart-1: #5EC4D4;
+  --chart-2: #3BA8B8;
+  --chart-3: #2A8A99;
+  --chart-4: #8A9FAA;
+  --chart-5: #5E7680;
 }
 
 @layer base {
@@ -161,7 +152,7 @@
   opacity: 0.5;
 }
 
-/* lite-youtube gold play button override */
+/* lite-youtube play button override */
 lite-youtube {
   background-color: var(--bg-surface-2);
   border-radius: 2px;
@@ -170,7 +161,7 @@ lite-youtube::before {
   display: none;
 }
 lite-youtube > .lty-playbtn {
-  background-color: var(--gold-400) !important;
+  background-color: var(--lens-400) !important;
   border-radius: 50%;
   width: 68px;
   height: 48px;
@@ -179,7 +170,7 @@ lite-youtube > .lty-playbtn {
   opacity: 1;
 }
 lite-youtube:hover > .lty-playbtn {
-  background-color: var(--gold-500) !important;
+  background-color: var(--lens-500) !important;
   filter: none;
 }
 

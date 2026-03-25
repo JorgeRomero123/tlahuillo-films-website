@@ -124,7 +124,7 @@ export default function Contact() {
               <div className="flex h-full items-center justify-center rounded-[2px] bg-bg-surface-1 p-12">
                 <div className="text-center">
                   <div
-                    className="text-3xl text-gold-400"
+                    className="text-3xl text-lens-400"
                     style={{
                       fontFamily: 'var(--font-bebas), sans-serif',
                       letterSpacing: '0.1em',
@@ -199,7 +199,7 @@ export default function Contact() {
                     name="name"
                     type="text"
                     required
-                    className="mt-2 w-full rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:border-gold-400 focus:outline-none focus:ring-1 focus:ring-gold-400"
+                    className="mt-2 w-full rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:border-lens-400 focus:outline-none focus:ring-1 focus:ring-lens-400"
                     style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
                     placeholder="Tu nombre"
                   />
@@ -218,7 +218,7 @@ export default function Contact() {
                     name="email"
                     type="email"
                     required
-                    className="mt-2 w-full rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:border-gold-400 focus:outline-none focus:ring-1 focus:ring-gold-400"
+                    className="mt-2 w-full rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:border-lens-400 focus:outline-none focus:ring-1 focus:ring-lens-400"
                     style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
                     placeholder="tu@correo.com"
                   />
@@ -236,7 +236,7 @@ export default function Contact() {
                     id="project_type"
                     name="project_type"
                     required
-                    className="mt-2 w-full rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary focus:border-gold-400 focus:outline-none focus:ring-1 focus:ring-gold-400"
+                    className="mt-2 w-full rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary focus:border-lens-400 focus:outline-none focus:ring-1 focus:ring-lens-400"
                     style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
                     defaultValue=""
                   >
@@ -264,7 +264,7 @@ export default function Contact() {
                     name="message"
                     rows={4}
                     required
-                    className="mt-2 w-full resize-none rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:border-gold-400 focus:outline-none focus:ring-1 focus:ring-gold-400"
+                    className="mt-2 w-full resize-none rounded-sm border border-neutral-700 bg-bg-surface-2 px-4 py-3 text-text-primary placeholder:text-text-tertiary focus:border-lens-400 focus:outline-none focus:ring-1 focus:ring-lens-400"
                     style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
                     placeholder="Cuéntanos sobre tu proyecto..."
                   />
@@ -273,7 +273,7 @@ export default function Contact() {
                 <button
                   type="submit"
                   disabled={status === 'submitting'}
-                  className="inline-flex items-center gap-2 rounded-sm bg-gold-400 px-7 py-3.5 font-semibold text-bg-page transition-all duration-300 hover:bg-gold-500 hover:shadow-[var(--shadow-gold)] disabled:opacity-60 disabled:cursor-not-allowed"
+                  className="inline-flex items-center gap-2 rounded-sm bg-lens-400 px-7 py-3.5 font-semibold text-bg-page transition-all duration-300 hover:bg-lens-500 hover:shadow-[var(--shadow-accent)] disabled:opacity-60 disabled:cursor-not-allowed"
                   style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
                 >
                   <Send className="h-4 w-4" />

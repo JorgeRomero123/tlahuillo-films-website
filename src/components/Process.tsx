@@ -44,7 +44,7 @@ export default function Process() {
                 <div className="flex items-start gap-6 lg:gap-10">
                   {/* Number */}
                   <span
-                    className="shrink-0 text-gold-400/60 transition-colors duration-500 group-hover:text-gold-400"
+                    className="shrink-0 text-lens-400/60 transition-colors duration-500 group-hover:text-lens-400"
                     style={{
                       fontFamily: 'var(--font-bebas), sans-serif',
                       fontSize: 'clamp(2.5rem, 4vw, 3.5rem)',

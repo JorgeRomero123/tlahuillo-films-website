@@ -58,13 +58,13 @@ export default function Services() {
                 >
                   {/* Icon */}
                   <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-sm bg-bg-surface-1 transition-colors duration-500 group-hover:bg-bg-surface-2">
-                    <Icon className="h-5 w-5 text-text-tertiary transition-colors duration-500 group-hover:text-gold-400" />
+                    <Icon className="h-5 w-5 text-text-tertiary transition-colors duration-500 group-hover:text-lens-400" />
                   </div>
 
                   {/* Content */}
                   <div className="flex flex-1 flex-col gap-2 lg:flex-row lg:items-center lg:gap-8">
                     <h3
-                      className="shrink-0 text-text-primary transition-colors duration-500 group-hover:text-gold-400 lg:w-64"
+                      className="shrink-0 text-text-primary transition-colors duration-500 group-hover:text-lens-400 lg:w-64"
                       style={{
                         fontFamily: 'var(--font-bebas), sans-serif',
                         textTransform: 'uppercase',
@@ -87,7 +87,7 @@ export default function Services() {
                   </div>
 
                   {/* Arrow */}
-                  <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-text-tertiary/40 transition-all duration-500 group-hover:translate-x-1 group-hover:text-gold-400 lg:mt-0" />
+                  <ArrowRight className="mt-1 h-5 w-5 shrink-0 text-text-tertiary/40 transition-all duration-500 group-hover:translate-x-1 group-hover:text-lens-400 lg:mt-0" />
                 </a>
               </motion.div>
             );

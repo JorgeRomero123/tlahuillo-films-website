@@ -67,7 +67,7 @@ export default function Hero() {
               href={whatsappLinks.general}
               target="_blank"
               rel="noopener noreferrer"
-              className="group inline-flex items-center gap-2 rounded-sm bg-gold-400 px-7 py-3.5 font-semibold text-bg-page transition-all duration-300 hover:bg-gold-500 hover:shadow-[var(--shadow-gold)]"
+              className="group inline-flex items-center gap-2 rounded-sm bg-lens-400 px-7 py-3.5 font-semibold text-bg-page transition-all duration-300 hover:bg-lens-500 hover:shadow-[var(--shadow-accent)]"
               style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
             >
               Cotiza tu video ahora
@@ -75,7 +75,7 @@ export default function Hero() {
             </a>
             <a
               href="#portafolio"
-              className="group inline-flex items-center gap-2 px-2 py-3 text-text-secondary transition-colors duration-300 hover:text-gold-400"
+              className="group inline-flex items-center gap-2 px-2 py-3 text-text-secondary transition-colors duration-300 hover:text-lens-400"
               style={{ fontFamily: 'var(--font-barlow), sans-serif' }}
             >
               <Play className="h-4 w-4" />
@@ -91,7 +91,7 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 1, ease: dramaticEase }}
           className="mt-auto origin-left"
         >
-          <div className="h-px w-full bg-gradient-to-r from-lens-400/30 via-gold-400/20 to-transparent" />
+          <div className="h-px w-full bg-gradient-to-r from-lens-400/30 via-lens-400/20 to-transparent" />
           <p
             className="mt-4 text-xs tracking-[0.3em] text-text-tertiary"
             style={{ fontFamily: 'var(--font-barlow), sans-serif', textTransform: 'uppercase' }}

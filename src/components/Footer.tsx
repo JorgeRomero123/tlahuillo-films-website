@@ -66,7 +66,7 @@ export default function Footer() {
                 href={href}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-text-tertiary transition-all duration-300 hover:scale-110 hover:text-gold-400"
+                className="text-text-tertiary transition-all duration-300 hover:scale-110 hover:text-lens-400"
                 aria-label={label}
               >
                 <Icon className="h-5 w-5" />
