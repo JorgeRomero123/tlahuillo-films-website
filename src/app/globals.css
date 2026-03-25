@@ -152,7 +152,7 @@
   opacity: 0.5;
 }
 
-/* lite-youtube play button override */
+/* lite-youtube minimal play icon */
 lite-youtube {
   background-color: var(--bg-surface-2);
   border-radius: 2px;
@@ -161,17 +161,27 @@ lite-youtube::before {
   display: none;
 }
 lite-youtube > .lty-playbtn {
-  background-color: var(--lens-400) !important;
-  border-radius: 50%;
-  width: 68px;
-  height: 48px;
-  border: none;
+  background: none !important;
+  border: none !important;
   filter: none;
-  opacity: 1;
+  opacity: 0.8;
+  width: 48px;
+  height: 48px;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+lite-youtube > .lty-playbtn::before {
+  content: '';
+  display: block;
+  border-style: solid;
+  border-width: 14px 0 14px 26px;
+  border-color: transparent transparent transparent #E8EEF0;
+}
+lite-youtube > .lty-playbtn::after {
+  content: none;
 }
 lite-youtube:hover > .lty-playbtn {
-  background-color: var(--lens-500) !important;
-  filter: none;
+  opacity: 1;
+  transform: scale(1.15);
 }
 
 /* Custom scrollbar */

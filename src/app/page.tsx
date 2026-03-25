@@ -2,7 +2,6 @@ import Navbar from '@/components/Navbar';
 import Hero from '@/components/Hero';
 import Services from '@/components/Services';
 import Showreel from '@/components/Showreel';
-import Gallery from '@/components/Gallery';
 import Process from '@/components/Process';
 import WhyProfessional from '@/components/WhyProfessional';
 import Contact from '@/components/Contact';
@@ -17,7 +16,6 @@ export default function Home() {
         <Hero />
         <Services />
         <Showreel />
-        <Gallery />
         <Process />
         <WhyProfessional />
         <Contact />
