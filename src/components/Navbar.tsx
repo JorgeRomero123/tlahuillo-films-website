@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 import { whatsappLinks } from '@/lib/whatsapp';
 import { dramaticEase } from '@/lib/motion';
+import { withPrefix } from '@/lib/prefix';
 
 const navLinks = [
   { label: 'Servicios', href: '#servicios' },
@@ -44,7 +45,7 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="relative block shrink-0">
             <Image
-              src="/logo.png"
+              src={withPrefix('/logo.png')}
               alt="Tlahuillo Films Mx — Productora audiovisual en Cuernavaca"
               width={940}
               height={327}

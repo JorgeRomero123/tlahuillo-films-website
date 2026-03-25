@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import { socialLinks } from '@/lib/constants';
+import { withPrefix } from '@/lib/prefix';
 
 function YouTubeIcon({ className }: { className?: string }) {
   return (
@@ -39,7 +40,7 @@ export default function Footer() {
           {/* Left: Logo + tagline */}
           <div>
             <Image
-              src="/logo.png"
+              src={withPrefix('/logo.png')}
               alt="Tlahuillo Films Mx"
               width={940}
               height={327}

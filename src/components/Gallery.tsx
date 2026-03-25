@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { dramaticEase } from '@/lib/motion';
+import { withPrefix } from '@/lib/prefix';
 
 const galleryImages = [
   { src: '/gallery/04.jpg', alt: 'Ciclista descendiendo por sendero boscoso — Down Tepoz, cobertura por Tlahuillo Films', aspect: 'landscape' },
@@ -78,7 +79,7 @@ export default function Gallery() {
                   'aspect-[4/3]'
                 }`}>
                   <Image
-                    src={img.src}
+                    src={withPrefix(img.src)}
                     alt={img.alt}
                     fill
                     className="object-cover transition-transform duration-700 ease-out group-hover:scale-105"

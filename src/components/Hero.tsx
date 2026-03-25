@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import { ArrowRight, Play } from 'lucide-react';
 import { whatsappLinks } from '@/lib/whatsapp';
 import { fadeUp, staggerContainer, dramaticEase } from '@/lib/motion';
+import { withPrefix } from '@/lib/prefix';
 
 export default function Hero() {
   return (
@@ -12,7 +13,7 @@ export default function Hero() {
       {/* Background image — soccer sunset */}
       <div className="absolute inset-0">
         <Image
-          src="/gallery/12.jpg"
+          src={withPrefix('/gallery/12.jpg')}
           alt=""
           fill
           className="object-cover object-center opacity-30"
