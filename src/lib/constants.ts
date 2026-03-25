@@ -61,7 +61,6 @@ export const steps = [
   },
 ] as const;
 
-// TODO: Add more videos from https://www.youtube.com/channel/UCvLOMGuNkWPH5bk_n7fVlwg
 export const portfolioVideos = [
   {
     id: 'SPNQ-71mTjE',
@@ -69,6 +68,34 @@ export const portfolioVideos = [
     description: 'Producción audiovisual independiente desde Cuernavaca, Morelos.',
     category: 'Showreel',
     featured: true,
+  },
+  {
+    id: 'jvo5NoIm_zc',
+    title: 'Producción Tlahuillo Films',
+    description: '',
+    category: 'Producción',
+    featured: false,
+  },
+  {
+    id: 'Qv7AeSQCevQ',
+    title: 'Cobertura de Evento',
+    description: '',
+    category: 'Evento',
+    featured: false,
+  },
+  {
+    id: 'ZqlBMdwISs8',
+    title: 'Video Corporativo',
+    description: '',
+    category: 'Corporativo',
+    featured: false,
+  },
+  {
+    id: 'bvWi32lZkp4',
+    title: 'Proyecto Audiovisual',
+    description: '',
+    category: 'Producción',
+    featured: false,
   },
 ] as const;
 
